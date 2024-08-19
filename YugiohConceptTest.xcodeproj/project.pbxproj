@@ -12,6 +12,12 @@
 		60C236192C5D25AE00A98E6C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C236182C5D25AE00A98E6C /* Item.swift */; };
 		60C2361B2C5D25AF00A98E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C2361A2C5D25AF00A98E6C /* Assets.xcassets */; };
 		60C2361E2C5D25AF00A98E6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C2361D2C5D25AF00A98E6C /* Preview Assets.xcassets */; };
+		60C236252C5D27C700A98E6C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C236242C5D27C700A98E6C /* HomeView.swift */; };
+		60C236272C5D2F4E00A98E6C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C236262C5D2F4E00A98E6C /* ListView.swift */; };
+		60C236292C5D2F6500A98E6C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C236282C5D2F6500A98E6C /* MapView.swift */; };
+		60C2362B2C5D2F9600A98E6C /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2362A2C5D2F9600A98E6C /* WorldView.swift */; };
+		60C2362D2C5D4EDB00A98E6C /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2362C2C5D4EDB00A98E6C /* CardDetailView.swift */; };
+		60C2362F2C5D5A8400A98E6C /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2362E2C5D5A8400A98E6C /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,12 @@
 		60C236182C5D25AE00A98E6C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		60C2361A2C5D25AF00A98E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60C2361D2C5D25AF00A98E6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60C236242C5D27C700A98E6C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		60C236262C5D2F4E00A98E6C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		60C236282C5D2F6500A98E6C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		60C2362A2C5D2F9600A98E6C /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		60C2362C2C5D4EDB00A98E6C /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		60C2362E2C5D5A8400A98E6C /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 				60C236182C5D25AE00A98E6C /* Item.swift */,
 				60C2361A2C5D25AF00A98E6C /* Assets.xcassets */,
 				60C2361C2C5D25AF00A98E6C /* Preview Content */,
+				60C236242C5D27C700A98E6C /* HomeView.swift */,
+				60C236262C5D2F4E00A98E6C /* ListView.swift */,
+				60C236282C5D2F6500A98E6C /* MapView.swift */,
+				60C2362A2C5D2F9600A98E6C /* WorldView.swift */,
+				60C2362C2C5D4EDB00A98E6C /* CardDetailView.swift */,
+				60C2362E2C5D5A8400A98E6C /* ListViewModel.swift */,
 			);
 			path = YugiohConceptTest;
 			sourceTree = "<group>";
@@ -141,8 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C236172C5D25AE00A98E6C /* ContentView.swift in Sources */,
+				60C2362F2C5D5A8400A98E6C /* ListViewModel.swift in Sources */,
+				60C236252C5D27C700A98E6C /* HomeView.swift in Sources */,
+				60C2362B2C5D2F9600A98E6C /* WorldView.swift in Sources */,
 				60C236192C5D25AE00A98E6C /* Item.swift in Sources */,
+				60C236272C5D2F4E00A98E6C /* ListView.swift in Sources */,
+				60C236292C5D2F6500A98E6C /* MapView.swift in Sources */,
 				60C236152C5D25AE00A98E6C /* YugiohConceptTestApp.swift in Sources */,
+				60C2362D2C5D4EDB00A98E6C /* CardDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
