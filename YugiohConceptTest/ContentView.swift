@@ -13,7 +13,7 @@ struct ContentView: View {
     @Query private var items: [Item]
 
     var body: some View {
-        NavigationView{#imageLiteral(resourceName: "simulator_screenshot_CC766114-BE15-4AA3-A2E2-A8763F9773A3.png")
+        NavigationView{
             HomeView()
             
         }.navigationBarHidden(true)
